@@ -139,7 +139,7 @@ My objective is to become a **Security Operations Center (SOC) Analyst** by cont
 | SYN Flood Attack Analysis  | Investigated a TCP SYN Flood DoS attack                        | TCP Analysis, DoS Detection        |
 | Network Hardening Analysis | Evaluated firewall and network hardening techniques            | Network Hardening                  |
 | OS Hardening Techniques    | Applied operating system hardening best practices              | System Hardening                   |
-
+* You can find all projects and reports in the report file.
 ---
 
 # 📜 Certifications
