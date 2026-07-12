@@ -14,3 +14,32 @@
 # request
 - You need to alert your manager about this problem quickly and discuss the next steps to stop this attacker and prevent this problem from happening again.
 -  You will need to be prepared to tell your boss about the type of attack you discovered and how it was affecting the web server and employees.
+
+# Report
+## Cybersecurity Incident Report
+
+
+- One potential explanation for the website's connection timeout error message is: SYN DOS attack from ip = 203.0.113.0
+
+- The logs show that: The ip 203.0.113.0 is flooding the web server with SYN request 
+
+- This event could be: SYN DOS attack And the website is crashed and cannot accept any requisites any more
+- This attack could lead to losing customer trust
+- the admin must block this ip 203.0.113.0 and tries to reset the server and configure the firewall 
+
+
+
+
+
+### Section 2: Explain how the attack is causing the website to malfunction
+When website visitors try to establish a connection with the web server, a three-way handshake occurs using the TCP protocol. Explain the three steps of the handshake:
+User sends SYN request 
+
+2. The web server respond with SYN/ACK that the server accepted the request
+
+3.The user/browser send ACK showing the acknowledge of server acceptance 
+
+Explain what happens when a malicious actor sends a large number of SYN packets all at once:if it is more than the server can handle the server crash and stop accepting any more requisites 
+
+Explain what the logs indicate and how that affects the server:the loge indicates a SYN  DOS attack coming from this ip 203.0.113.0 and it is affecting the server and it cannot handle any requests 
+
