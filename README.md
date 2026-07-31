@@ -56,8 +56,8 @@ This repository documents my learning journey through hands-on labs, technical r
 | **Linux** | File & directory management, permissions (chmod, chown), navigation, command-line utilities, and file inspection. |
 | **Wireshark** | Packet inspection, protocol analysis, and network traffic investigation. |
 | **tcpdump** | Capturing and analyzing packets, interpreting network traffic, and investigating DNS & ICMP communication. |
-| **SQL** *(Learning)* | Writing queries to filter and analyze data in security-related scenarios. |
-| **Python** *(Learning)* | Developing basic scripts for automation and log analysis. |
+| **SQL** | SQL queries, joins, aggregation, database design |
+| **Python**  | Developing basic scripts for automation and log analysis. |
 
 # 📂 Portfolio Projects
 
@@ -67,6 +67,7 @@ This repository documents my learning journey through hands-on labs, technical r
 | [Network Attack Analysis](./network-attack-analysis/) | Analysis of common network attacks and defensive techniques. |
 | [NIST CSF Incident Response](./nist-csf-incident-response/) | Incident investigation following the NIST CSF. |
 | [TCPDump Network Analysis](./tcpdump-network-analysis/) | Packet capture analysis using tcpdump. |
+| [least privilege data leak analysis](./least-privilege-data-leak-analysis/) | data leak and the use of least privilege |
 
 > More projects will be added as I continue the Google Cybersecurity Professional Certificate.
 
@@ -78,5 +79,6 @@ This repository documents my learning journey through hands-on labs, technical r
 - Foundations of Cybersecurity
 - Play It Safe: Manage Security Risks
 - Connect and Protect: Networks and Network Security
+- Tools of the Trade: Linux and SQL
 
 ---
