@@ -1,4 +1,4 @@
-![Caesar Cipher Lab Execution](./caesar-cipher/lab-execution.png)
+![Caesar Cipher Lab Execution](lab-execution.png)
 # Cryptography & OpenSSL Lab
 
 ## Overview
