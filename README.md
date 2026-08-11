@@ -1,12 +1,30 @@
-# 🛡️ Mahmoud Ahmed — Cybersecurity Portfolio
+<div align="center">
 
-> **Aspiring SOC Analyst | Computer Science Student**  
-> Building practical defensive-security skills through hands-on labs, technical investigations, and security projects.
+# 👋 Mahmoud Ahmed
 
-📍 Mansoura, Egypt  
-🔗 [LinkedIn](https://linkedin.com/in/mahmoud-ahmed-fathy1)  
-📧 mahmoud.ahmed.soc@gmail.com  
-💻 [GitHub](https://github.com/mahmoud1982006)
+### 🛡️ Aspiring SOC Analyst | Computer Science Student
+
+Building practical cybersecurity skills through hands-on labs, security reports, and defensive security projects.
+
+📍 Mansoura, Egypt
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahmoud-ahmed-fathy1/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahmoud.ahmed.soc@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahmoud1982006)
+
+</div>
+
+---
+
+## 📑 Table of Contents
+
+- [About](#-about)
+- [Technical Skills](#️-technical-skills)
+- [Portfolio Projects](#-portfolio-projects)
+- [Certifications](#-certifications)
+- [Currently Learning](#-currently-learning)
+- [GitHub Stats](#-github-stats)
+- [Connect With Me](#-connect-with-me)
 
 ---
 
@@ -14,254 +32,121 @@
 
 Welcome to my cybersecurity portfolio.
 
-This repository documents my practical learning journey in cybersecurity through hands-on labs, technical reports, packet analysis, incident-response scenarios, Linux exercises, and defensive-security projects.
+This repository documents my learning journey through hands-on labs, technical reports, and security projects completed while studying cybersecurity. Each project demonstrates practical skills in **network security, incident response, Linux, and security analysis** — built with the goal of breaking into a **SOC Analyst / Blue Team** role.
 
-My current focus is **SOC / Blue Team security**, with particular interest in:
-
-- Security monitoring and alert investigation
-- Network traffic and packet analysis
-- Incident response
-- Log analysis and threat detection
-- Linux security fundamentals
-- Networking and TCP/IP
-- Security risk assessment and hardening
-
-> 🎯 **Career Goal:** Entry-level SOC Analyst / Cybersecurity role.
+I'm a second-year Computer Science student at Mansoura University, currently working through the Google Cybersecurity Professional Certificate and applying what I learn directly to real captures, logs, and incident scenarios rather than just theory.
 
 ---
 
-## 🧰 Technical Skills
+## 🛠️ Technical Skills
 
 ### 🔐 Cybersecurity
 
-| Skill | Practical Focus |
+![Incident Response](https://img.shields.io/badge/-Incident%20Response-2E8B57?style=flat)
+![NIST CSF](https://img.shields.io/badge/-NIST%20CSF-2E8B57?style=flat)
+![Threat Detection](https://img.shields.io/badge/-Threat%20Detection-2E8B57?style=flat)
+![Risk Assessment](https://img.shields.io/badge/-Risk%20Assessment-2E8B57?style=flat)
+![SIEM](https://img.shields.io/badge/-SIEM%20Fundamentals-2E8B57?style=flat)
+![Digital Forensics](https://img.shields.io/badge/-Digital%20Forensics-2E8B57?style=flat)
+
+| Skill | Practical Experience |
 |---|---|
-| Security Monitoring | Understanding security events and monitoring concepts |
-| SIEM Fundamentals | Event/log monitoring and basic security analysis |
-| Log Analysis | Investigating logs and identifying suspicious activity |
-| Incident Response | Applying structured investigation and response processes |
-| NIST CSF | Identify, Protect, Detect, Respond, Recover |
-| Threat Detection | Identifying indicators of malicious activity |
-| Phishing Analysis | Investigating phishing and social-engineering scenarios |
-| Risk Assessment | Identifying assets, threats, vulnerabilities, and risks |
-| Security Hardening | Reviewing controls and recommending defensive improvements |
-| Least Privilege | Evaluating access and reducing unnecessary permissions |
-| IAM | Authentication, authorization, MFA, and access control |
+| **Security Risk Assessment** | Identifying assets, threats, vulnerabilities, and recommending mitigation strategies. |
+| **Security Controls** | Understanding administrative, technical, and physical security controls. |
+| **Security Hardening** | Applying network and operating system hardening best practices. |
+| **Incident Response** | Investigating security incidents using the NIST Cybersecurity Framework (CSF). |
+| **Threat Detection** | Identifying indicators of malicious activity through network traffic analysis. |
+| **Phishing & Malware Analysis** | Investigating phishing and ransomware incident scenarios and documenting findings. |
+| **IAM Fundamentals** | Least privilege, SSO, and MFA concepts applied in incident and access scenarios. |
+| **NIST Cybersecurity Framework** | Applying Identify, Protect, Detect, Respond, and Recover functions in incident analysis. |
 
 ### 🌐 Networking
 
-- TCP/IP and OSI Model
-- TCP three-way handshake
-- TCP SYN / SYN Flood
-- UDP and ICMP
-- DNS and DHCP
-- HTTP / HTTPS
-- SSH
-- ARP
-- Ports and protocols
-- Packet capture and network traffic analysis
+| Topic | Practical Experience |
+|---|---|
+| **TCP/IP** | Understanding packet flow, host communication, and troubleshooting connectivity. |
+| **OSI Model** | Identifying how protocols interact across network layers. |
+| **DNS** | Analyzing DNS queries and name resolution traffic. |
+| **TCP** | Understanding connection establishment, the three-way handshake, and SYN flood attacks. |
+| **UDP** | Analyzing connectionless communication and packet behavior. |
+| **ICMP** | Investigating ICMP traffic and detecting ICMP flood attacks. |
+| **HTTP / HTTPS** | Understanding web communication and encrypted traffic fundamentals. |
+| **SSH / ARP** | Secure remote access fundamentals and address resolution analysis. |
 
-### 🐧 Linux
+### 💻 Tools & Technologies
 
-- Bash / command line
-- File and directory management
-- `chmod` and `chown`
-- File permissions
-- User access and authorization
-- Basic system and file inspection
+| Tool | Practical Experience |
+|---|---|
+| **Linux** | File & directory management, permissions (`chmod`, `chown`), navigation, command-line utilities, and file inspection. |
+| **Wireshark** | Packet inspection, protocol analysis, and network traffic investigation. |
+| **tcpdump** | Capturing and analyzing packets, interpreting network traffic, and investigating DNS & ICMP communication. |
+| **OpenSSL** | Symmetric encryption/decryption (AES-256-CBC) and classical cipher analysis. |
+| **Git & GitHub** | Version control and portfolio/repository management. |
+| **SQL / MySQL** | Queries, joins, aggregation, and database design. |
+| **Python / C#** | Basic scripting, automation, and OOP fundamentals. |
 
-### 🛠️ Tools
+### 🌍 Web Technologies
 
-- **Wireshark** — packet inspection and protocol analysis
-- **tcpdump** — packet capture and network analysis
-- **VirusTotal** — basic threat/IOC investigation
-- **URLScan.io** — URL and web-traffic investigation
-- **VirtualBox** — virtualization and lab environments
-- **Git / GitHub** — version control and portfolio management
-
-### 💻 Programming & Data
-
-- Python — basic scripting, OOP, automation fundamentals
-- C# — OOP fundamentals
-- SQL — queries, joins, aggregation
-- MySQL — database design fundamentals
+`HTML` `CSS` `WordPress` `WooCommerce` `FlutterFlow`
 
 ---
 
-# 📂 Projects
+## 📂 Portfolio Projects
 
-## 🔎 Wireshark Network Traffic Analysis
+| Project | Description |
+|---|---|
+| 🦠 [**Wireshark Network Traffic Analysis**](https://github.com/mahmoud1982006/mahmoud_ahmed/tree/8c9a3089dd42f4136a95dbcf6109b71fc49c9fb6/wireshark-network-traffic-analysis) | Hands-on `.pcap` investigation using Wireshark — DNS, HTTP, TCP, IP, and MAC-level filtering with payload inspection. |
+| 🐛 [**Ransomware & Phishing Incident**](https://github.com/mahmoud1982006/mahmoud_ahmed/tree/main/ransomware-phishing-incident) | Incident handler's journal for a ransomware/phishing scenario in a healthcare clinic setting. |
+| 🧯 [**NIST CSF Incident Response**](https://github.com/mahmoud1982006/mahmoud_ahmed/tree/main/nist-csf-incident-response) | Investigated an ICMP flood / DDoS incident following the NIST Cybersecurity Framework. |
+| 🕸️ [**Network Attack Analysis**](https://github.com/mahmoud1982006/mahmoud_ahmed/tree/main/network-attack-analysis) | Analysis of common network attacks, hardening measures, and defensive mitigation techniques. |
+| 📡 [**TCPDump Network Analysis**](https://github.com/mahmoud1982006/mahmoud_ahmed/tree/main/tcpdump-network-analysis) | Captured and analyzed live network traffic using `tcpdump` from the command line. |
+| 🐚 [**TCPDump Network Traffic Capture & Analysis**](https://github.com/mahmoud1982006/mahmoud_ahmed/tree/main/tcpdump-network-traffic-capture) | Identified network interfaces and captured/filtered live traffic to a `.pcap` file using `tcpdump` and `curl` (Google Cloud Skills Boost: *Capture your first packet*). |
+| 🔑 [**Least Privilege & Data Leak Analysis**](https://github.com/mahmoud1982006/mahmoud_ahmed/tree/main/least-privilege-data-leak-analysis) | Investigated a data leak incident scenario through the lens of least-privilege access control. |
+| 🔐 [**Cryptography & OpenSSL Lab**](https://github.com/mahmoud1982006/mahmoud_ahmed/tree/main/caesar-cipher) | Decrypted a Caesar cipher with `tr` and an AES-256-CBC encrypted file using OpenSSL. |
+| 🗂️ [**Linux File Permissions & User Management**](https://github.com/mahmoud1982006/mahmoud_ahmed/tree/main/linux-commands-to-manage-file-permissions) | Used Linux commands and Bash to verify user permissions and secure the system. |
+| 🎓 [**Certificates**](https://github.com/mahmoud1982006/mahmoud_ahmed/tree/main/certificates) | Certificates earned throughout the Google Cybersecurity Professional Certificate journey. |
 
-Hands-on investigation of a provided PCAP capture using Wireshark.
-
-**Focus:**
-- IP and TCP traffic
-- DNS queries
-- HTTP traffic
-- MAC addresses
-- Packet payloads
-- Display filters
-- Protocol-layer investigation
-
-📁 [`wireshark-network-traffic-analysis`](./wireshark-network-traffic-analysis)
-
----
-
-## 🚨 Ransomware & Phishing Incident
-
-Security incident scenario covering the relationship between phishing, user compromise, and ransomware activity.
-
-**Focus:**
-- Attack flow
-- Initial access
-- Indicators of compromise
-- Incident investigation
-- Defensive response
-
-📁 [`ransomware-phishing-incident`](./ransomware-phishing-incident)
+> More projects will be added as I continue the Google Cybersecurity Professional Certificate and start hands-on TryHackMe rooms (SOC Level 1 path).
 
 ---
 
-## 🛡️ NIST CSF Incident Response
+## 📜 Certifications
 
-Incident-response analysis of an **ICMP Flood** scenario using the NIST Cybersecurity Framework.
-
-**Framework functions:**
-1. Identify
-2. Protect
-3. Detect
-4. Respond
-5. Recover
-
-📁 [`nist-csf-incident-response`](./nist-csf-incident-response)
+- 🎓 **Google Cybersecurity Professional Certificate** *(In Progress)* — Coursera
+  - ✅ Foundations of Cybersecurity
+  - ✅ Play It Safe: Manage Security Risks
+  - ✅ Connect and Protect: Networks and Network Security
+  - ✅ Tools of the Trade: Linux and SQL
+- 🎓 **Digital Egypt Cubs Initiative — Level Two**, Ministry of Communications and Information Technology (MCIT)
 
 ---
 
-## 🌐 Network Attack Analysis
+## 🚀 Currently Learning
 
-Analysis of common network attacks and their defensive considerations.
-
-**Focus:**
-- Attack behavior
-- Network indicators
-- Traffic analysis
-- Detection concepts
-- Mitigation strategies
-
-📁 [`network-attack-analysis`](./network-attack-analysis)
+- 🔎 Hands-on SOC practice via **TryHackMe** (SOC Level 1 path)
+- 📘 Working toward **CompTIA Security+**, with **GSEC**, **GCIH**, and **GCFA** as longer-term goals
+- 🧩 Deepening SIEM, log analysis, and detection engineering fundamentals
 
 ---
 
-## 📡 tcpdump Network Analysis
+## 📊 GitHub Stats
 
-Hands-on packet capture and analysis using tcpdump.
+<div align="center">
 
-**Focus:**
-- Packet capture
-- DNS traffic
-- ICMP traffic
-- Network communication
-- Command-line analysis
+![Mahmoud's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mahmoud1982006&show_icons=true&theme=radical&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoud1982006&layout=compact&theme=radical&hide_border=true)
 
-📁 [`tcpdump-network-analysis`](./tcpdump-network-analysis)
+</div>
 
 ---
 
-## 🔐 Least Privilege Data Leak Analysis
+## 📬 Connect With Me
 
-Analysis of a data-leak scenario and the role of the **Least Privilege** principle in reducing security risk.
+<div align="center">
 
-**Focus:**
-- Access control
-- Excessive permissions
-- Data exposure
-- Risk reduction
-- Security recommendations
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahmoud-ahmed-fathy1/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahmoud.ahmed.soc@gmail.com)
 
-📁 [`least-privilege-data-leak-analysis`](./least-privilege-data-leak-analysis)
+*Open to entry-level SOC Analyst, Cybersecurity, and Blue Team opportunities.*
 
----
-
-## 🐧 Linux File Permissions & User Management
-
-Practical Linux exercises focused on access control and file permissions.
-
-**Focus:**
-- Users and groups
-- File permissions
-- `chmod`
-- `chown`
-- Access verification
-
-📁 [`linux-commands-to-manage-file-permissions`](./linux-commands-to-manage-file-permissions)
-
----
-
-## 🔑 Caesar Cipher
-
-A basic cryptography project demonstrating encryption and decryption using the Caesar Cipher.
-
-📁 [`caesar-cipher`](./caesar-cipher)
-
----
-
-# 📜 Certifications & Training
-
-### Google Cybersecurity Professional Certificate
-**Coursera — In Progress**
-
-Completed coursework includes:
-
-- Foundations of Cybersecurity
-- Play It Safe: Manage Security Risks
-- Connect and Protect: Networks and Network Security
-- Tools of the Trade: Linux and SQL
-
-The certificate is being completed alongside practical cybersecurity labs and portfolio projects.
-
-### Digital Egypt Cubs Initiative
-**Level Two — MCIT**
-
-### CIB Summer Internship 2026
-**Commercial International Bank (CIB) — Selected**
-
-Exposure to banking operations, controls, digital banking, data & analytics, cybersecurity awareness, AI/ML, and professional workplace skills.
-
----
-
-# 📈 Current Learning Focus
-
-I am currently strengthening my SOC Analyst skill set through:
-
-- Networking fundamentals
-- Linux
-- Packet analysis
-- Security monitoring
-- Incident response
-- SIEM concepts
-- Threat detection
-- Cybersecurity labs
-- Practical security reporting
-
----
-
-# 🎯 Career Objective
-
-I am working toward an **entry-level SOC Analyst / Cybersecurity role**, with a focus on defensive security, security monitoring, investigation, and incident response.
-
-This portfolio will continue to grow as I complete more labs, certifications, and real-world security projects.
-
----
-
-## 📬 Contact
-
-**Mahmoud Ahmed**
-
-📧 mahmoud.ahmed.soc@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/mahmoud-ahmed-fathy1)  
-💻 [GitHub](https://github.com/mahmoud1982006/mahmoud_ahmed)
-
----
-
-⭐ If you're interested in cybersecurity, SOC operations, or defensive security, feel free to explore the projects in this repository.
-
+</div>
