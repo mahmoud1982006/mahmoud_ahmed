@@ -63,7 +63,7 @@ sudo ifconfig
 
 The `eth0` interface was identified as the active Ethernet interface, with IP address `172.17.0.2`.
 
-![Network Interfaces - ifconfig](images/01-network-interfaces-ifconfig.png)
+![Network Interfaces - ifconfig](01-network-interfaces-ifconfig.png)
 
 I then confirmed the available capture interfaces directly through tcpdump:
 
@@ -73,7 +73,7 @@ sudo tcpdump -D
 
 This listed `eth0`, `any`, `lo`, and several other pseudo-interfaces available for packet capture.
 
-![tcpdump Interface List](images/02-tcpdump-interface-list.png)
+![tcpdump Interface List](02-tcpdump-interface-list.png)
 
 **🧠 Security Relevance**
 Identifying the correct network interface is the first step in any packet capture investigation — capturing on the wrong interface means missing the traffic of interest entirely.
@@ -94,7 +94,7 @@ sudo tcpdump -i eth0 -v -c5
 
 The output showed TCP and UDP packets, including source/destination hosts, ports, TTL, flags, and sequence/acknowledgment numbers.
 
-![tcpdump Live Traffic Inspection](images/03-tcpdump-live-traffic.png)
+![tcpdump Live Traffic Inspection](03-tcpdump-live-traffic.png)
 
 **🧠 Security Relevance**
 Live traffic inspection lets an analyst quickly get a sense of what a host is communicating with in real time, before deciding whether a full capture is needed.
@@ -116,7 +116,7 @@ sudo tcpdump -i eth0 -nn -c9 port 80 -w capture.pcap &
 - `-w capture.pcap`: write the capture to a file
 - `&`: run the capture in the background
 
-![Starting Background Packet Capture](images/04-tcpdump-background-capture-start.png)
+![Starting Background Packet Capture](04-tcpdump-background-capture-start.png)
 
 HTTP traffic was then generated for the capture using:
 
@@ -126,7 +126,7 @@ curl opensource.google.com
 
 The request returned a `301 Moved Permanently` response redirecting to `https://opensource.google/`, and the background capture completed after 9 packets were captured.
 
-![curl HTTP Traffic Capture](images/05-curl-http-traffic-capture.png)
+![curl HTTP Traffic Capture](05-curl-http-traffic-capture.png)
 
 **🧠 Security Relevance**
 Filtering a capture to a specific port at collection time (rather than capturing everything) keeps `.pcap` files focused and manageable, which matters when working with high-volume production traffic.
@@ -147,7 +147,7 @@ sudo tcpdump -nn -r capture.pcap -v
 
 The output showed the full TCP three-way handshake (SYN, SYN-ACK, ACK) with `172.17.0.2`, followed by the HTTP `GET / HTTP/1.1` request to `opensource.google.com` and the server's `301 Moved Permanently` response.
 
-![Filtering Captured Packet Data](images/06-tcpdump-filter-capture-file.png)
+![Filtering Captured Packet Data](06-tcpdump-filter-capture-file.png)
 
 For deeper inspection, the same file can also be read in hex/ASCII form:
 
