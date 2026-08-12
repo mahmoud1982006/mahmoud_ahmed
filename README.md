@@ -4,7 +4,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=30&pause=700&center=true&vCenter=true&width=900&lines=%F0%9F%9B%A1%EF%B8%8F+Aspiring+SOC+Analyst;%F0%9F%94%8E+Cybersecurity+Enthusiast;%F0%9F%90%A7+Linux+%7C+Networking;%F0%9F%9A%A8+SOC+%7C+Incident+Response;%F0%9F%92%BB+Computer+Science+Student)](https://git.io/typing-svg)
 
-![Profile Views](https://komarev.com/ghpvc/?username=mahmoud1982006&style=for-the-badge)
 
 <p>
   <b>Building practical cybersecurity skills through hands-on labs, security reports, and defensive security projects.</b>
@@ -139,21 +138,14 @@ My approach is hands-on: I document labs, analyze real network captures, investi
 Hands-on labs and writeups (incident response, network analysis, Linux/Windows admin, cryptography, and more):
 👉 [View full portfolio](https://github.com/mahmoud1982006/mahmoud_ahmed)
 
-## 📊 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mahmoud1982006&show_icons=true&theme=tokyonight&hide_border=true" height="170">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahmoud1982006&layout=compact&theme=tokyonight&hide_border=true" height="170">
-</div>
+
 
 ## 🔥 GitHub Streak
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=mahmoud1982006&theme=tokyonight&hide_border=true" height="170">
 </div>
 
-## 🐍 Contribution Activity
-<div align="center">
-  <img src="https://raw.githubusercontent.com/mahmoud1982006/mahmoud1982006/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake">
-</div>
+
 
 ## 📈 Contribution Graph
 <div align="center">
@@ -163,7 +155,9 @@ Hands-on labs and writeups (incident response, network analysis, Linux/Windows a
 ## 📬 Connect With Me
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahmoud-ahmed-fathy1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahmoud-ahmed-fathy1/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahmoud.ahmed.soc@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahmoud1982006)
 
 🛡️ **Open to Entry-Level Opportunities**
 SOC Analyst • Cybersecurity • Blue Team
